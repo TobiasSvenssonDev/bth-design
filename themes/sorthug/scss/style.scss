@@ -9,6 +9,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+
 /* Placement */
 
 body {
@@ -31,6 +32,7 @@ body {
 
 .header {
     height: 20vh;
+    
 }
 
 .header,
@@ -45,17 +47,25 @@ body {
 .title,
 .logo {
     margin-left: 2vw;
-    padding: 3em 3em 3em 0;
+    padding-top: 3em;
+    
 }
-
+.logo {
+    max-width: 20%;
+}
 .logo img {
     object-fit: cover;
+}
+.tagline a{
+    display: flex;
+    flex-direction: row;
 }
 
 @media (max-width: 767px) {
 
     .title,
     .logo {
+        margin-left: 1vw;
         padding: 1em 1em 1em 0;
     }
 
