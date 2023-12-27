@@ -6422,7 +6422,6 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-/*#3d5a80;*/
 /* blockquotes */
 blockquote {
   font-style: italic;
@@ -6458,6 +6457,24 @@ pre code {
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+  margin: 0;
+}
+
+.landingpage h1 {
+  justify-self: center;
+}
+
+.landingpage .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  border: 1px solid #000;
 }
 
 /* Placement */
